@@ -19,7 +19,7 @@ Once installed, the script "RecordingRenamer.py" can be pointed to within the OB
 The script will then run whenever a recording is finished, or an instant replay buffer is saved.
 
 ## Configuration
-There is not much extra configuration for the script, but if you would like to ignore certain executables, and have them fall-back to the default "Desktop" title, or to override non full-screen windows and use thier title rather than the default "Desktop". These list of executables are maintained in the "FullscreeOveride.cfg" and "DesktopOverride.cfg"
+There is not much extra configuration for the script, but if you would like to ignore certain executables, and have them fall-back to the default "Desktop" title, or to override non full-screen windows and use thier title rather than the default "Desktop". These list of executables are maintained in the "FullscreenOveride.cfg" and "DesktopOverride.cfg"
 
 ## Details
 The scrpt detects the title of the foreground window when ever the recording or instant replay is saved. If the window is the OBS window, it will label the recoding "Manual Recording". If the window is detected as fullscreen on the primary monitor, it will label the recording that windows title (unless the executable is in the "FullscreenOverride.cfg" list. If the window is not fullscreen, the recording will be lablled "Desktop", unless the executable appears in the "DesktopOverride.cfg" file. 
