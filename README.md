@@ -2,7 +2,7 @@
 ### OBS recording renamer, appends full screen window title to finished recordings and instant replays.
 
 ## Installation
-The script, and to the best of my knowledge OBS, require Python 3.6. Alongside the Python install and correct settings for the Python scripts on OBS - [pywin32](https://pypi.org/project/pywin32/) and [psUtil](https://pypi.org/project/psutil/) are required. These can be installed via pip, but I faced issues with win32gui, so i installed that from the installer found [here](https://github.com/mhammond/pywin32/releases)
+The script, and to the best of my knowledge OBS, require Python 3.6. Alongside the Python install and correct settings for the Python scripts on OBS - [pywin32](https://pypi.org/project/pywin32/) and [psUtil](https://pypi.org/project/psutil/) are required. These can be installed via pip, but I faced issues with pywin32, so I installed that from the installer found [here](https://github.com/mhammond/pywin32/releases)
 ```
 pip install pywin32
 pip install psutil
