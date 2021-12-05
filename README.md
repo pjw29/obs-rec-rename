@@ -1,4 +1,4 @@
-# obs-rec-rename
+# OBS-Rec-Rename
 ### OBS recording renamer, appends full screen window title to finished recordings and instant replays.
 
 ## Installation
