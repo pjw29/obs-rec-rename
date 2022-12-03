@@ -138,7 +138,7 @@ def script_update(settings):
     Data.Extension = S.obs_data_get_string(settings,"extension")
     Data.ExtensionMask = '\*' + Data.Extension
     Data.Remove_MKV = S.obs_data_get_bool(settings,"remove_mkv")
-    Data.Delay = 1000*S.obs_data_get_int(settings,"period")
+    Data.Delay = 1000*S.obs_data_get_int(settings,"period") or 15000
     print(Data.Delay)
     S.timer_remove(timer_process)
     S.timer_add(timer_process, Data.Delay)
